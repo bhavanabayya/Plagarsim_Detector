@@ -1,7 +1,7 @@
-# 🧠 LSTM Plagiarism Detector
+#  LSTM Plagiarism Detector
 
 
-## ⚙️ Setup
+##  Setup
 
 python -m venv .venv
 # Activate venv
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 ------------------------------------------------------------------------
 
-## 📊 Run EDA
+##  Run EDA
 
 ``` bash
 python src/eda.py
@@ -24,7 +24,7 @@ Artifacts will be saved in `output/eda/`.
 
 ------------------------------------------------------------------------
 
-## 🏋️ Train LSTM
+##  Train LSTM
 
 ``` bash
 python src/train_lstm.py
@@ -35,7 +35,7 @@ Saves: - `output/lstm_model.keras` - `output/tokenizer.pkl` -
 
 ------------------------------------------------------------------------
 
-## 🖥 Run Streamlit App (local)
+##  Run Streamlit App (local)
 
 ``` bash
 streamlit run app/streamlit_lstm.py
