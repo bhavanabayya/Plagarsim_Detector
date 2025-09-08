@@ -1,0 +1,14 @@
+numpy
+pandas
+tqdm
+nltk
+spacy
+contractions
+scikit-learn
+streamlit
+joblib
+tensorflow>=2.12
+pypdf
+matplotlib
+seaborn 
+wordcloud

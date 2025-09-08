@@ -1,0 +1,73 @@
+# ---- Python / Build ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.build/
+dist/
+build/
+pip-wheel-metadata/
+
+# ---- Virtual envs ----
+.venv/
+venv/
+env/
+
+# ---- Notebooks / checkpoints ----
+.ipynb_checkpoints/
+
+# ---- OS & IDE ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Logs & caches ----
+*.log
+*.tmp
+*.cache/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+.streamlit/*.yaml
+
+# ---- Project data/artifacts (keep repo light) ----
+data/
+corpus/
+output/
+!output/.gitkeep               # keep the folder structure only
+
+# If you really need to version tiny samples:
+# !data/sample/*
+# !corpus/sample/*
+
+# ---- Models & large binaries ----
+*.keras
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.bin
+*.tar
+*.tar.gz
+*.zip
+
+# ---- AWS / credentials ----
+.aws/
+*.pem
+*.key
+.env
+.env.*
+*.credentials
+*.json.secret
+
+# ---- Node / web (if added later) ----
+node_modules/
+.json
